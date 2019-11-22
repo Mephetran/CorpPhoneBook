@@ -1,12 +1,12 @@
 # CorpPhoneBook
 
-Little Android application that organizes corporate phonebook.
+A little Android application that organizes a corporate phonebook.
 
-It takes data from remote server. The server creates json file from Active Directory.
+It takes data from a remote server. The server creates a JSON file from the Active Directory.
 
 Example of this file:
 
-```json
+```JSON
 {
     "code": 1234,
     "list": [
@@ -28,4 +28,4 @@ Example of this file:
 }
 ```
 
-I desided to create this file with PHP script. But it can have any other ways for resolving.
+I decided to create this file with a PHP script. But it can have any other ways of resolving.
