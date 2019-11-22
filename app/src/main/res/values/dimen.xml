@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="fab_1">55dp</dimen>
+    <dimen name="fab_2">105dp</dimen>
+    <dimen name="fab_3">155dp</dimen>
+
+</resources>

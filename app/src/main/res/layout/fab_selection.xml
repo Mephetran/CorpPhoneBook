@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/call_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="170dp"
+        android:layout_marginEnd="70dp"
+        android:background="@color/selector"
+        android:padding="6dp"
+        android:text="@string/call"
+        android:textColor="@color/text"
+        android:visibility="invisible"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/sel_3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="167dp"
+        android:layout_marginEnd="24dp"
+        android:visibility="invisible"
+        app:fabSize="mini"
+        app:backgroundTint="@color/header"
+        android:src="@drawable/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/sms_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="125dp"
+        android:layout_marginEnd="70dp"
+        android:background="@color/selector"
+        android:padding="6dp"
+        android:text="@string/sms"
+        android:textColor="@color/text"
+        android:visibility="invisible"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/sel_2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="122dp"
+        android:layout_marginEnd="24dp"
+        android:visibility="invisible"
+        app:fabSize="mini"
+        app:backgroundTint="@color/header"
+        android:src="@drawable/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/whatsapp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="70dp"
+        android:background="@color/selector"
+        android:padding="6dp"
+        android:text="@string/whatsapp"
+        android:textColor="@color/text"
+        android:visibility="invisible"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/sel_1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="77dp"
+        android:layout_marginEnd="24dp"
+        android:visibility="invisible"
+        app:fabSize="mini"
+        app:backgroundTint="@color/header"
+        android:src="@drawable/whatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/contact"
+        android:src="@drawable/contact"
+        app:fabSize="normal"
+        app:backgroundTint="@color/header"
+        app:rippleColor="@color/text" />
+
+</RelativeLayout>

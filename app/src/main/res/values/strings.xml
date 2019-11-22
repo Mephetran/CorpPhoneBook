@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CorpPhoneBook</string>
+    <string name="welcome_txt">Добро пожаловать!</string>
+    <string name="notification_text">Введите Ваш номер телефона</string>
+    <string name="hint_text">8 XXX XXX XX XX</string>
+    <string name="enter">Войти</string>
+    <string name="warning_text">ERROR</string>
+    <string name="search">Данные для поиска</string>
+    <string name="sn">Фамилия:</string>
+    <string name="name">ИО:</string>
+    <string name="department">Отдел:</string>
+    <string name="title">Должность:</string>
+    <string name="phone">Телефон:</string>
+    <string name="call">Позвонить</string>
+    <string name="sms">СМС</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="action_share">Поделиться</string>
+    <string name="contact">Связаться</string>
+</resources>
